@@ -254,11 +254,11 @@ footer a {
 @media (max-width: 960px) {
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 32px;
+    grid-gap: 0px;
   }
 
   section {
-    padding: 30px;
+    padding: 20px;
   }
 
   header {
@@ -287,6 +287,10 @@ footer a {
     font-size: 8px;
   }
 
+  .card-body h4 {
+    font-size: 16px;
+  }
+
   footer {
     padding: 50px 0;
   }
@@ -305,5 +309,13 @@ footer a {
 
   .embed {
     aspect-ratio: 16 / 9;
+  }
+
+  .instagram-embeds {
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    grid-gap: 0;
   }
 }
